@@ -1,0 +1,27 @@
+{
+  "name": "swof",
+  "version": "1.0.0",
+  "description": "Surface Water and Observable Flow",
+  "main": "index.js",
+  "scripts": {
+    "dev": "NODE_ENV=development PORT=3000 node server.js",
+    "start": "node server.js",
+    "build": "next build",
+    "export": "next build & next export",
+    "deploy": "now",
+    "new-sketch": "scripts/new-sketch.sh",
+    "postinstall": "next build"
+  },
+  "author": "Alex Christopher Lim <alex@virtueware.com> (https://github.com/AlexLim-Pro)",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "isomorphic-unfetch": "^3.1.0",
+    "next": "^10.0.1",
+    "next-routes": "^1.4.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-p5-wrapper": "2.4.0",
+    "webpack": "^4.42.1"
+  },
+  "devDependencies": {}
+}
